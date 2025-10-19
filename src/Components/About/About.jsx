@@ -9,10 +9,12 @@ const handleAnimationComplete = () => {
 
 const About = () => {
   return (
-    <div className="max-w-[1400px] mx-auto px-4 sm:px-6 mt-10 mb-10">
+    <div className="max-w-[1400px] mx-auto px-4 sm:px-6 mt-20 mb-10">
+      <h2 className="text-4xl font-semibold text-center mb-8 bg-gradient-to-r from-indigo-500 to-pink-500 bg-clip-text text-transparent">
+            About Me
+          </h2>
       {/* Layout Container */}
       <div className="flex flex-col md:flex-row justify-center items-center md:items-start gap-8 md:gap-12">
-        
         {/* Profile Image */}
         <div className="w-full md:w-1/3 flex justify-center md:justify-end">
           <img
@@ -24,20 +26,6 @@ const About = () => {
 
         {/* Text Section */}
         <div className="w-full md:w-2/3 text-left ">
-          <SplitText
-            text="About Me"
-            className="text-3xl sm:text-4xl font-semibold text-white"
-            delay={100}
-            duration={0.3}
-            ease="power3.out"
-            splitType="chars"
-            from={{ opacity: 0, y: 40 }}
-            to={{ opacity: 1, y: 0 }}
-            threshold={0.1}
-            rootMargin="-100px"
-            onLetterAnimationComplete={handleAnimationComplete}
-          />
-
           <div className="mt-6 space-y-4 text-gray-300 leading-relaxed text-justify">
             <p>
               I'm{" "}

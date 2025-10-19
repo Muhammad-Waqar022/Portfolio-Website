@@ -1,6 +1,9 @@
 import "./App.css";
 import About from "./Components/About/About.jsx";
+import Skill from "./Components/Skills/Skill.jsx";
+import Project from "./Components/Projects/Project.jsx";
 import DotGrid from "./Components/Hero/DotGrid";
+import Certificate from "./Components/Certificate/Certificate.jsx";
 import HeroContent from "./Components/Hero/HeroContent.jsx";
 import CardNav from "./Components/Navbar/CardNav.jsx";
 import AnimatedContent from "./Components/AnimateContent/AnimateContent.jsx";
@@ -87,7 +90,42 @@ function App() {
         >
           <About />
         </AnimatedContent>
-        
+      </div>
+
+      <div>
+        <AnimatedContent
+          distance={80}
+          direction="vertical"
+          reverse={false}
+          duration={0.5}
+          ease="power3.out"
+          initialOpacity={0}
+          animateOpacity
+          scale={1.1}
+          threshold={0.1}
+          delay={0}
+        >
+          <Skill/>
+        </AnimatedContent>
+      </div>
+      <div>
+        <AnimatedContent
+          distance={80}
+          direction="vertical"
+          reverse={false}
+          duration={0.5}
+          ease="power3.out"
+          initialOpacity={0}
+          animateOpacity
+          scale={1.1}
+          threshold={0.1}
+          delay={0}
+        >
+          <Project />
+        </AnimatedContent>
+      </div>
+      <div>
+        <Certificate />
       </div>
     </>
   );
