@@ -8,18 +8,18 @@ const SkillsSection = () => {
 
   const skills = [
     // Frontend
-    { name: "HTML", category: "Frontend", icon: "/icons/html.svg" },
-    { name: "CSS", category: "Frontend", icon: "/icons/css.svg" },
-    { name: "JavaScript", category: "Frontend", icon: "/icons/js.svg" },
-    { name: "Bootstrap", category: "Frontend", icon: "/icons/js.svg" },
-    { name: "Tailwind CSS", category: "Frontend", icon: "/icons/tailwind.svg" },
-    { name: "React", category: "Frontend", icon: "/icons/react.svg" },
+    { name: "HTML", category: "Frontend", icon: "../public/icons/html.png" },
+    { name: "CSS", category: "Frontend", icon: "../public/icons/css-3.png" },
+    { name: "JavaScript", category: "Frontend", icon: "../public/icons/js.png" },
+    { name: "Bootstrap", category: "Frontend", icon: "../public/icons/bootstrap.png" },
+    { name: "Tailwind CSS", category: "Frontend", icon: "../public/icons/Tailwind CSS.png" },
+    { name: "React", category: "Frontend", icon: "../public/icons/science.png" },
 
     // WordPress
-    { name: "WordPress", category: "WordPress", icon: "/icons/wp.svg" },
-    { name: "Elementor", category: "WordPress", icon: "/icons/elementor.svg" },
-    { name: "WooCommerce", category: "WordPress", icon: "/icons/woo.svg" },
-    { name: "Yoast SEO", category: "WordPress", icon: "/icons/wpbakery.svg" },
+    { name: "WordPress", category: "WordPress", icon: "../public/icons/wordpress.png" },
+    { name: "Elementor", category: "WordPress", icon: "../public/icons/elementor.png" },
+    { name: "WooCommerce", category: "WordPress", icon: "../public/icons/woocommerce.png" },
+    { name: "Yoast SEO", category: "WordPress", icon: "../public/icons/seo.png" },
 
     // Backend (future expansion)
     // { name: "PHP", category: "Backend", icon: "/icons/php.svg" },
@@ -32,7 +32,7 @@ const SkillsSection = () => {
       : skills.filter((skill) => skill.category === filter);
 
   return (
-    <section id="skills" className="max-w-[1400px] mx-auto px-6 py-16">
+    <section id="skills" className="max-w-[1200px] mx-auto px-6 py-16">
       {/* Section Title */}
       <h2 className="text-4xl font-semibold text-center mb-8 bg-gradient-to-r from-indigo-500 to-pink-500 bg-clip-text text-transparent">
         My Skills

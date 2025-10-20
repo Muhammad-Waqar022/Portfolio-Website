@@ -2,6 +2,8 @@ import "./App.css";
 import About from "./Components/About/About.jsx";
 import Skill from "./Components/Skills/Skill.jsx";
 import Project from "./Components/Projects/Project.jsx";
+import Contact from "./Components/Contact/Contact.jsx";
+import Footer from "./Components/Footer/Footer..jsx";
 import DotGrid from "./Components/Hero/DotGrid";
 import Certificate from "./Components/Certificate/Certificate.jsx";
 import HeroContent from "./Components/Hero/HeroContent.jsx";
@@ -75,7 +77,7 @@ function App() {
         </div>
       </div>
 
-      <div>
+      <div id="about">
         <AnimatedContent
           distance={80}
           direction="vertical"
@@ -92,7 +94,7 @@ function App() {
         </AnimatedContent>
       </div>
 
-      <div>
+      <div id="skill">
         <AnimatedContent
           distance={80}
           direction="vertical"
@@ -108,7 +110,7 @@ function App() {
           <Skill/>
         </AnimatedContent>
       </div>
-      <div>
+      <div id="project">
         <AnimatedContent
           distance={80}
           direction="vertical"
@@ -124,9 +126,13 @@ function App() {
           <Project />
         </AnimatedContent>
       </div>
-      <div>
+      <div id="certificates">
         <Certificate />
       </div>
+      <div id="contact">
+        <Contact />
+      </div>
+      <Footer/>
     </>
   );
 }

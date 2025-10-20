@@ -72,7 +72,7 @@ const Projects = () => {
       : projectsData.filter((project) => project.category === filter);
 
   return (
-    <div className="w-full max-w-[1400px] mx-auto px-4 mt-24">
+    <div className="w-full max-w-[1200px] mx-auto px-4 mt-24">
       {/* Section Heading */}
       <h2 className="text-4xl font-semibold text-center bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent mb-8">
         My Projects

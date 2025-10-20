@@ -9,7 +9,7 @@ const handleAnimationComplete = () => {
 
 const About = () => {
   return (
-    <div className="max-w-[1400px] mx-auto px-4 sm:px-6 mt-20 mb-10">
+    <div className="max-w-[1200px] mx-auto px-4 sm:px-6 mt-20 mb-10">
       <h2 className="text-4xl font-semibold text-center mb-8 bg-gradient-to-r from-indigo-500 to-pink-500 bg-clip-text text-transparent">
             About Me
           </h2>
