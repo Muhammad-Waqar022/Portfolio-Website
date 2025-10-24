@@ -12,8 +12,8 @@ const HeroContent = () => {
             <p className='text-sm px-1 mx-auto sm:text-xl text-gray-300 sm:w-xl text-center'>I design and build clean, modern, and high-performing websites that help brands stand out.</p>
         </div>
         <div className='flex justify-center space-x-3'>
-        <button className='mt-6 px-6 py-3 bg-indigo-600 text-white rounded-full hover:bg-indigo-700 transition duration-300'>View my Projects</button>
-        <button className='mt-6 px-6 py-3 bg-transparent border-2 border-indigo-600 text-white rounded-full hover:bg-indigo-600 transition duration-300'>Hire Me</button>
+        <a href="#project" className='mt-6 px-6 py-3 bg-indigo-600 text-white rounded-full hover:bg-indigo-700 transition duration-300'>View my Projects</a>
+        <a href='#contact' className='mt-6 px-6 py-3 bg-transparent border-2 border-indigo-600 text-white rounded-full hover:bg-indigo-600 transition duration-300'>Hire Me</a>
         </div>
     </div>
   )

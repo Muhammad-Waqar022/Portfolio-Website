@@ -163,13 +163,13 @@ const CardNav = ({
             </h1>
           </div>
 
-          <button
+          <a href="#contact"
             type="button"
-            className="card-nav-cta-button"
+            className="px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition duration-300"
             style={{ backgroundColor: buttonBgColor, color: buttonTextColor }}
           >
             Contact Me
-          </button>
+          </a>
         </div>
 
         <div className="card-nav-content" aria-hidden={!isExpanded}>

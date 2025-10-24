@@ -59,7 +59,7 @@ const About = () => {
           {/* Social Icons */}
           <div className="flex justify-start gap-5 mt-6 text-gray-400 text-2xl">
             <a
-              href="https://github.com/waqarajmal"
+              href="https://github.com/Muhammad-Waqar022"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition-colors duration-300"
@@ -67,7 +67,7 @@ const About = () => {
               <FiGithub />
             </a>
             <a
-              href="https://www.linkedin.com/in/waqar-ajmal"
+              href="http://linkedin.com/in/muhammad-waqar-ajmal20"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-500 transition-colors duration-300"

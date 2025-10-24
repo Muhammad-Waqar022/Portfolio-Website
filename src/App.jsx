@@ -25,8 +25,8 @@ function App() {
       bgColor: "#170D27",
       textColor: "#fff",
       links: [
-        { label: "Featured", ariaLabel: "Featured Projects" },
-        { label: "Case Studies", ariaLabel: "Project Case Studies" },
+        { label: "Frontend", ariaLabel: "Featured Projects", href:"#project"  },
+        { label: "Wordpress", ariaLabel: "Project Case Studies", href:"#project"  },
       ],
     },
     {
@@ -34,15 +34,15 @@ function App() {
       bgColor: "#271E37",
       textColor: "#fff",
       links: [
-        { label: "Email", ariaLabel: "Email us" },
-        { label: "Twitter", ariaLabel: "Twitter" },
-        { label: "LinkedIn", ariaLabel: "LinkedIn" },
+        { label: "Email", ariaLabel: "Email us", href:"mailto:ranawaqar4343@gmail.com" },
+        { label: "Github", ariaLabel: "Github", href:"https://github.com/Muhammad-Waqar022" },
+        { label: "LinkedIn", ariaLabel: "LinkedIn",href:"http://linkedin.com/in/muhammad-waqar-ajmal20" },
       ],
     },
   ];
   return (
     <>
-      <div
+      <div id="home"
         style={{
           position: "relative",
           overflow: "hidden",

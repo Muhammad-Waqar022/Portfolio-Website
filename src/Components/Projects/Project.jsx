@@ -5,37 +5,37 @@ const projectsData = [
     id: 1,
     title: "Task Management App",
     category: "Frontend",
-    image: "task-management.jpg",
+    image: "../public/project/task-management.png",
     description:
       "A task manager with add, edit, and delete features to boost productivity and manage workflows easily.",
-    tech: ["HTML", "CSS", "JavaScript"],
-    link: "#",
+    tech: ["React", "Tailwind CSS", "Context API"],
+    link: "https://focusboard-mu.vercel.app/",
   },
   {
     id: 2,
     title: "Notes App",
     category: "Frontend",
-    image: "notes-app.jpg",
+    image: "../public/project/notes-app.png",
     description:
       "A responsive notes application where users can create, store, and manage notes in the browser.",
-    tech: ["HTML", "CSS", "JavaScript"],
-    link: "#",
+    tech: ["React", "Tailwind CSS", "LocalStorage"],
+    link: "https://notes-react-mocha.vercel.app/",
   },
   {
     id: 3,
     title: "Personal Blog",
     category: "Frontend",
-    image: "blog.jpg",
+    image: "../public/project/blog.png",
     description:
       "A sleek, minimal personal blog layout for showcasing articles with responsive design and clean typography.",
-    tech: ["HTML", "CSS", "JavaScript"],
-    link: "#",
+    tech: ["React", "Tailwind CSS", "React Router"],
+    link: "https://react-blog-app-snowy.vercel.app/",
   },
   {
     id: 4,
     title: "Booking Website",
     category: "WordPress",
-    image: "booking-website.jpg",
+    image: "../public/project/book.png",
     description:
       "A fitness booking website for online session scheduling and user management.",
     tech: ["WordPress", "Elementor", "Book Me"],
@@ -45,21 +45,21 @@ const projectsData = [
     id: 5,
     title: "Marketix",
     category: "WordPress",
-    image: "marketix.jpg",
+    image: "../public/project/marketix.png",
     description:
       "A modern marketing agency website built using Elementor with smooth animations.",
-    tech: ["WordPress", "Elementor"],
-    link: "#",
+    tech: ["WordPress", "Elementor","WPForms"],
+    link: "https://marketix.gt.tc/",
   },
   {
     id: 6,
     title: "Lavender Cosmetics Store",
     category: "WordPress",
-    image: "lavender-cosmetics.jpg",
+    image: "../public/project/lavender.png",
     description:
       "An elegant online cosmetics store integrated with WooCommerce for seamless shopping.",
     tech: ["WordPress", "Elementor", "WooCommerce"],
-    link: "#",
+    link: "https://lavendercosmetics.kesug.com/",
   },
 ];
 
@@ -106,7 +106,7 @@ const Projects = () => {
             <img
               src={project.image}
               alt={project.title}
-              className="w-full h-44 object-cover"
+              className="w-full h-44 p-1.5 rounded-2xl object-coer"
             />
             <div className="p-5 flex flex-col justify-between h-[230px]">
               <div>

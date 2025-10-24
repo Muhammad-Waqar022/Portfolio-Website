@@ -1,9 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { CiMail,CiLocationOn,CiLinkedin } from "react-icons/ci";
+import { CiMail, CiLocationOn, CiLinkedin } from "react-icons/ci";
 import { MdOutlinePhone } from "react-icons/md";
 import { FiGithub } from "react-icons/fi";
-
 
 const Contact = () => {
   return (
@@ -34,7 +33,7 @@ const Contact = () => {
           <ContactInfo
             icon={<MdOutlinePhone className="w-6 h-6 text-indigo-400" />}
             title="Phone"
-            text="+92 300 1234567"
+            text="+92 314 4314022"
           />
           <ContactInfo
             icon={<CiMail className="w-6 h-6 text-indigo-400" />}
@@ -45,21 +44,22 @@ const Contact = () => {
           {/* 🌐 Social Links */}
           <div className="flex items-center space-x-5 pt-4">
             <SocialIcon
-              href="https://github.com/ranawaqar"
+              href="https://github.com/Muhammad-Waqar022"
               icon={<FiGithub className="w-6 h-6" />}
               label="GitHub"
             />
             <SocialIcon
-              href="https://linkedin.com/in/muhammad-waqar-ajmal"
+              href="http://linkedin.com/in/muhammad-waqar-ajmal20"
               icon={<CiLinkedin className="w-6 h-6" />}
               label="LinkedIn"
             />
-            
           </div>
         </div>
 
         {/* Right Side - Contact Form */}
         <motion.form
+          action="https://formspree.io/f/mjkannvy"
+          method="POST"
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}

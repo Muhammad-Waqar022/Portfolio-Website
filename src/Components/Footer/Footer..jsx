@@ -31,7 +31,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="#projects"
+                href="#project"
                 className="hover:text-indigo-400 transition-colors"
               >
                 Projects
@@ -67,7 +67,7 @@ const Footer = () => {
         {/* Social Links */}
         <div className="flex space-x-5 mt-4 md:mt-0">
           <a
-            href="https://github.com/ranawaqar"
+            href="https://github.com/Muhammad-Waqar022"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 rounded-full hover:bg-indigo-500 transition-all duration-300"
@@ -75,7 +75,7 @@ const Footer = () => {
             <FiGithub className="w-6 h-6" />
           </a>
           <a
-            href="https://linkedin.com/in/muhammad-waqar-ajmal"
+            href="http://linkedin.com/in/muhammad-waqar-ajmal20"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 rounded-full hover:bg-indigo-500 transition-all duration-300"
