@@ -56,7 +56,7 @@ const Contact = () => {
           </div>
         </div>
 
-        {/* Right Side - Contact Form */}
+   
         <motion.form
           action="https://formspree.io/f/mjkannvy"
           method="POST"
