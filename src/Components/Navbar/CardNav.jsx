@@ -165,7 +165,7 @@ const CardNav = ({
 
           <a href="#contact"
             type="button"
-            className="px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition duration-300"
+            className="px-3 py-1.5 sm:px-6 sm:py-3  bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition duration-300"
             style={{ backgroundColor: buttonBgColor, color: buttonTextColor }}
           >
             Contact Me

@@ -19,7 +19,7 @@ const About = () => {
         <div className="w-full md:w-1/3 flex justify-center md:justify-end">
           <img
             className="w-64 h-64 md:w-80 md:h-80 object-cover rounded-2xl shadow-lg"
-            src="pfp.jpeg"
+            src="../public/project/picture.png"
             alt="pfp"
           />
         </div>
