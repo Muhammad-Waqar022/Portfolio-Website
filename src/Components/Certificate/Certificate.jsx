@@ -2,11 +2,11 @@ import React, { useEffect, useState } from "react";
 import { motion, useMotionValue } from "framer-motion";
 
 const imgs = [
-  "../public/Certificates/frontend.png",
-  "../public/Certificates/freecodecamp.png",
-  "../public/Certificates/js.png",
-  "../public/Certificates/react.png",
-  "../public/Certificates/wordpress.png",
+  "Certificates/frontend.png",
+  "Certificates/freecodecamp.png",
+  "Certificates/js.png",
+  "Certificates/react.png",
+  "Certificates/wordpress.png",
 ];
 
 const ONE_SECOND = 1000;

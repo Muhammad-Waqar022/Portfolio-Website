@@ -5,7 +5,7 @@ const projectsData = [
     id: 1,
     title: "Task Management App",
     category: "Frontend",
-    image: "../public/project/task-management.png",
+    image: "project/task-management.png",
     description:
       "A task manager with add, edit, and delete features to boost productivity and manage workflows easily.",
     tech: ["React", "Tailwind CSS", "Context API"],
@@ -15,7 +15,7 @@ const projectsData = [
     id: 2,
     title: "Notes App",
     category: "Frontend",
-    image: "../public/project/notes-app.png",
+    image: "project/notes-app.png",
     description:
       "A responsive notes application where users can create, store, and manage notes in the browser.",
     tech: ["React", "Tailwind CSS", "LocalStorage"],
@@ -25,7 +25,7 @@ const projectsData = [
     id: 3,
     title: "Personal Blog",
     category: "Frontend",
-    image: "../public/project/blog.png",
+    image: "project/blog.png",
     description:
       "A sleek, minimal personal blog layout for showcasing articles with responsive design and clean typography.",
     tech: ["React", "Tailwind CSS", "React Router"],
@@ -35,7 +35,7 @@ const projectsData = [
     id: 4,
     title: "Booking Website",
     category: "WordPress",
-    image: "../public/project/book.png",
+    image: "project/book.png",
     description:
       "A fitness booking website for online session scheduling and user management.",
     tech: ["WordPress", "Elementor", "Book Me"],
@@ -45,7 +45,7 @@ const projectsData = [
     id: 5,
     title: "Marketix",
     category: "WordPress",
-    image: "../public/project/marketix.png",
+    image: "project/marketix.png",
     description:
       "A modern marketing agency website built using Elementor with smooth animations.",
     tech: ["WordPress", "Elementor","WPForms"],
@@ -55,7 +55,7 @@ const projectsData = [
     id: 6,
     title: "Lavender Cosmetics Store",
     category: "WordPress",
-    image: "../public/project/lavender.png",
+    image: "project/lavender.png",
     description:
       "An elegant online cosmetics store integrated with WooCommerce for seamless shopping.",
     tech: ["WordPress", "Elementor", "WooCommerce"],

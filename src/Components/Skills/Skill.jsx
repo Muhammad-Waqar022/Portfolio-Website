@@ -8,18 +8,18 @@ const SkillsSection = () => {
 
   const skills = [
     // Frontend
-    { name: "HTML", category: "Frontend", icon: "../public/icons/html.png" },
-    { name: "CSS", category: "Frontend", icon: "../public/icons/css-3.png" },
-    { name: "JavaScript", category: "Frontend", icon: "../public/icons/js.png" },
-    { name: "Bootstrap", category: "Frontend", icon: "../public/icons/bootstrap.png" },
-    { name: "Tailwind CSS", category: "Frontend", icon: "../public/icons/Tailwind CSS.png" },
-    { name: "React", category: "Frontend", icon: "../public/icons/science.png" },
+    { name: "HTML", category: "Frontend", icon: "icons/html.png" },
+    { name: "CSS", category: "Frontend", icon: "icons/css-3.png" },
+    { name: "JavaScript", category: "Frontend", icon: "icons/js.png" },
+    { name: "Bootstrap", category: "Frontend", icon: "icons/bootstrap.png" },
+    { name: "Tailwind CSS", category: "Frontend", icon: "icons/Tailwind CSS.png" },
+    { name: "React", category: "Frontend", icon: "icons/science.png" },
 
     // WordPress
-    { name: "WordPress", category: "WordPress", icon: "../public/icons/wordpress.png" },
-    { name: "Elementor", category: "WordPress", icon: "../public/icons/elementor.png" },
-    { name: "WooCommerce", category: "WordPress", icon: "../public/icons/woocommerce.png" },
-    { name: "Yoast SEO", category: "WordPress", icon: "../public/icons/seo.png" },
+    { name: "WordPress", category: "WordPress", icon: "icons/wordpress.png" },
+    { name: "Elementor", category: "WordPress", icon: "icons/elementor.png" },
+    { name: "WooCommerce", category: "WordPress", icon: "icons/woocommerce.png" },
+    { name: "Yoast SEO", category: "WordPress", icon: "/icons/seo.png" },
 
     // Backend (future expansion)
     // { name: "PHP", category: "Backend", icon: "/icons/php.svg" },
