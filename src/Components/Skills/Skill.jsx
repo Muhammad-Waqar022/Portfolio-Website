@@ -8,7 +8,7 @@ const SkillsSection = () => {
 
   const skills = [
     // Frontend
-    { name: "HTML", category: "Frontend", icon: "icons/html.png" },
+    { name: "HTML", category: "Frontend", icon: "icons/html.png " },
     { name: "CSS", category: "Frontend", icon: "icons/css-3.png" },
     { name: "JavaScript", category: "Frontend", icon: "icons/js.png" },
     { name: "Bootstrap", category: "Frontend", icon: "icons/bootstrap.png" },
