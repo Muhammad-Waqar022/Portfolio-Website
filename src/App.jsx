@@ -82,7 +82,7 @@ function App() {
           distance={80}
           direction="vertical"
           reverse={false}
-          duration={0.5}
+          duration={1}
           ease="power3.out"
           initialOpacity={0}
           animateOpacity
@@ -99,7 +99,7 @@ function App() {
           distance={80}
           direction="vertical"
           reverse={false}
-          duration={0.5}
+          duration={1}
           ease="power3.out"
           initialOpacity={0}
           animateOpacity
@@ -115,7 +115,7 @@ function App() {
           distance={80}
           direction="vertical"
           reverse={false}
-          duration={0.5}
+          duration={1}
           ease="power3.out"
           initialOpacity={0}
           animateOpacity
