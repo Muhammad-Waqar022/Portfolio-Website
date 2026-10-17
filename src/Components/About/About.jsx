@@ -9,14 +9,14 @@ const handleAnimationComplete = () => {
 
 const About = () => {
   return (
-    <div className="max-w-[1200px] mx-auto px-4 sm:px-6 mt-20 mb-10">
+    <div id="aboutme" className="max-w-[1200px] mx-auto px-4 sm:px-6 mt-20 mb-10">
       <h2 className="text-4xl font-semibold text-center mb-8 bg-gradient-to-r from-indigo-500 to-pink-500 bg-clip-text text-transparent">
             About Me
           </h2>
       {/* Layout Container */}
-      <div className="flex flex-col md:flex-row justify-center items-center md:items-start gap-8 md:gap-12">
+      <div className="flex w-full min-w-0 flex-col md:flex-row items-center md:items-start gap-8 md:gap-10">
         {/* Profile Image */}
-        <div className="w-full md:w-1/3 flex justify-center md:justify-end">
+        <div className="w-full min-w-0 md:flex-1 flex justify-center md:justify-end">
           <img
             className="w-64 h-64 md:w-80 md:h-80 object-cover rounded-2xl shadow-lg"
             src="project/picture.png"
@@ -25,30 +25,31 @@ const About = () => {
         </div>
 
         {/* Text Section */}
-        <div className="w-full md:w-2/3 text-left ">
+        <div className="w-full min-w-0 md:flex-[2] text-left">
           <div className="mt-6 space-y-4 text-gray-300 leading-relaxed text-justify">
-            <p>
+                        <p>
               I'm{" "}
               <span className="font-semibold text-white">
                 Muhammad Waqar Ajmal
               </span>
-              , a passionate frontend developer with a deep focus on creating
-              clean, modern, and user-friendly web experiences. I pay close
-              attention to every pixel, ensuring each design feels balanced,
-              responsive, and visually engaging.
+              , a BSCS student and developer focused on building full-stack web
+              applications and AI-powered solutions. I work with technologies
+              like React, Node.js, Express, MongoDB, Python, and LangChain to
+              turn ideas into practical, user-friendly applications.
             </p>
-            <p>
-              With strong expertise in both design and development, I love
-              turning creative ideas into functional websites that not only look
-              great but also perform smoothly across all devices. My goal is to
-              build digital experiences that connect design, usability, and
-              performance perfectly.
+                        <p>
+              I have built projects involving real-time communication,
+              authentication, AI-powered code reviews, and Retrieval-Augmented
+              Generation (RAG). I enjoy combining full-stack development with
+              Generative AI to build intelligent applications that deliver
+              practical value, provide seamless user experiences, and solve
+              real-world challenges.
             </p>
           </div>
 
           {/* Button */}
           <a
-            href="/MuhammadWaqar-Resume.pdf"
+            href="/MuhammadWaqarAjmal-FullStack+AI.pdf"
             id="downloadCv"
             download
             className="inline-block mt-6 px-6 py-3 bg-indigo-600 text-white rounded-full hover:bg-indigo-700 transition duration-300"
@@ -67,7 +68,7 @@ const About = () => {
               <FiGithub />
             </a>
             <a
-              href="http://linkedin.com/in/muhammad-waqar-ajmal20"
+              href="https://pk.linkedin.com/in/meetwaqar"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-500 transition-colors duration-300"

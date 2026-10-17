@@ -17,7 +17,7 @@ function App() {
       bgColor: "#0D0716",
       textColor: "#fff",
       links: [
-        { label: "Download Cv", ariaLabel: "Download CV", href:"#downloadCv" },
+        { label: "Download Cv", ariaLabel: "Download CV", href: "#aboutme" },
       ],
     },
     {
@@ -25,8 +25,26 @@ function App() {
       bgColor: "#170D27",
       textColor: "#fff",
       links: [
-        { label: "Frontend", ariaLabel: "Featured Projects", href:"#project"  },
-        { label: "Wordpress", ariaLabel: "Project Case Studies", href:"#project"  },
+        {
+          label: "Frontend",
+          ariaLabel: "Frontend Projects",
+          href: "#project",
+        },
+        {
+          label: "Full-Stack",
+          ariaLabel: "Full-Stack Projects",
+          href: "#project",
+        },
+        {
+          label: "GenAI",
+          ariaLabel: "Generative AI Projects",
+          href: "#project",
+        },
+        {
+          label: "n8n Automation",
+          ariaLabel: "n8n Automation Projects",
+          href: "#project",
+        },
       ],
     },
     {
@@ -34,9 +52,9 @@ function App() {
       bgColor: "#271E37",
       textColor: "#fff",
       links: [
-        { label: "Email", ariaLabel: "Email us", href:"mailto:ranawaqar4343@gmail.com" },
-        { label: "Github", ariaLabel: "Github", href:"https://github.com/Muhammad-Waqar022" },
-        { label: "LinkedIn", ariaLabel: "LinkedIn",href:"http://linkedin.com/in/muhammad-waqar-ajmal20" },
+        { label: "Email", ariaLabel: "Email us", href: "mailto:ranawaqar4343@gmail.com" },
+        { label: "Github", ariaLabel: "Github", href: "https://github.com/Muhammad-Waqar022" },
+        { label: "LinkedIn", ariaLabel: "LinkedIn", href: "https://pk.linkedin.com/in/meetwaqar" },
       ],
     },
   ];
@@ -86,7 +104,7 @@ function App() {
           ease="power3.out"
           initialOpacity={0}
           animateOpacity
-          scale={1.1}
+          scale={1}
           threshold={0.1}
           delay={0}
         >
@@ -107,7 +125,7 @@ function App() {
           threshold={0.1}
           delay={0}
         >
-          <Skill/>
+          <Skill />
         </AnimatedContent>
       </div>
       <div id="project">
@@ -132,7 +150,7 @@ function App() {
       <div id="contact">
         <Contact />
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }

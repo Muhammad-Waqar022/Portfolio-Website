@@ -4,26 +4,38 @@ import { motion, AnimatePresence } from "framer-motion";
 const SkillsSection = () => {
   const [filter, setFilter] = useState("All");
 
-  const categories = ["All", "Frontend", "WordPress"];
+  const categories = ["All", "Frontend", "Backend", "GenAI", "WordPress"];
 
   const skills = [
     // Frontend
-    { name: "HTML", category: "Frontend", icon: "icons/html.png " },
+    { name: "HTML", category: "Frontend", icon: "icons/html.png" },
     { name: "CSS", category: "Frontend", icon: "icons/css-3.png" },
     { name: "JavaScript", category: "Frontend", icon: "icons/js.png" },
-    { name: "Bootstrap", category: "Frontend", icon: "icons/bootstrap.png" },
-    { name: "Tailwind CSS", category: "Frontend", icon: "icons/Tailwind CSS.png" },
     { name: "React", category: "Frontend", icon: "icons/science.png" },
+    { name: "Tailwind CSS", category: "Frontend", icon: "icons/Tailwind CSS.png" },
+    { name: "Bootstrap", category: "Frontend", icon: "icons/bootstrap.png" },
+
+    // Backend
+    { name: "Node.js", category: "Backend", icon: "icons/nodejs.png" },
+    { name: "Express.js", category: "Backend", icon: "icons/express-js.png" },
+    { name: "MongoDB", category: "Backend", icon: "icons/MongoDB.png" },
+    { name: "Postman", category: "Backend", icon: "icons/Postman.png" },
+    { name: "Socket.io", category: "Backend", icon: "icons/socket-io.png" },
+    { name: "JWT Authentication", category: "Backend", icon: "icons/jwt.png" },
+
+    // GenAI
+    { name: "Python", category: "GenAI", icon: "icons/Python.png" },
+    { name: "LangChain", category: "GenAI", icon: "icons/langchain.png" },
+    { name: "LangGraph", category: "GenAI", icon: "icons/langgraph.png" },
+    { name: "RAG", category: "GenAI", icon: "icons/rag.png" },
+    { name: "LLMs", category: "GenAI", icon: "icons/llm.png" },
+    { name: "n8n", category: "GenAI", icon: "icons/n8n.png" },
 
     // WordPress
     { name: "WordPress", category: "WordPress", icon: "icons/wordpress.png" },
     { name: "Elementor", category: "WordPress", icon: "icons/elementor.png" },
     { name: "WooCommerce", category: "WordPress", icon: "icons/woocommerce.png" },
-    { name: "Yoast SEO", category: "WordPress", icon: "/icons/seo.png" },
-
-    // Backend (future expansion)
-    // { name: "PHP", category: "Backend", icon: "/icons/php.svg" },
-    // { name: "MySQL", category: "Backend", icon: "/icons/mysql.svg" },
+    { name: "Yoast SEO", category: "WordPress", icon: "icons/seo.png" },
   ];
 
   const filteredSkills =

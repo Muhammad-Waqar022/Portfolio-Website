@@ -8,3 +8,28 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+
+/* Hide scrollbars across the entire website */
+html,
+body,
+#root {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer */
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar,
+#root::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
+html,
+body,
+#root {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+}
+
+body {
+  overflow-x: clip;
+}

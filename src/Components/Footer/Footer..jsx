@@ -75,7 +75,7 @@ const Footer = () => {
             <FiGithub className="w-6 h-6" />
           </a>
           <a
-            href="http://linkedin.com/in/muhammad-waqar-ajmal20"
+            href="https://pk.linkedin.com/in/meetwaqar"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 rounded-full hover:bg-indigo-500 transition-all duration-300"
